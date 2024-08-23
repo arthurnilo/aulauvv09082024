@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
 }
 
 .meio {
@@ -28,21 +28,35 @@
     padding: 10px;
     text-align: center;
     margin: 0 auto;
-    width: 832px;
-    height: 120px;
+    width: 872px;
+    height: 180px;
     border-radius: 30px;
+}
+
+.popo {
+    display: flex;
+    text-align: center;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    font-size: 42px;
+    font-size: 52px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
-} 
+    font-size: 40px;
+    text-decoration: underline 2px;
+    padding-bottom: 10px;
+}
 
 .meio2 {
     display: flex;
@@ -61,15 +75,31 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 20px;
-    text-align: center;
 }
 
 .mapapa {
     display: flex;
     justify-content: center;
-    
+    padding-top: 50px;
 }
 
 .mapa {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.mapadiv {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    margin: 35px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.get {
+    display: flex;
+    justify-content: center;
 }
